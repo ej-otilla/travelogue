@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    text-align: center;
+    gap: 1rem;
+}
