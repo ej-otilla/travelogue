@@ -45,5 +45,32 @@ body header h2 {
     text-transform: uppercase;
 }
 
+/* SECTION STYLES */
+
+main section {
+    margin-bottom: 1.5rem;
 }
 
+main section header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    line-height: 0.2rem;
+    color: black;
+    align-items: center;
+}
+
+main section header h3 {
+    font-family: var(--titleFont);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+main section header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main section header a:hover {
+    color: rgb(102, 102, 102);
+}
