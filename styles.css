@@ -1,8 +1,26 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+/* GENERAL STYLES */
+
 * {
     box-sizing: border-box;
 }
 
-header {
+:root {
+    --titleFont: "Permanent Marker", Georgia, 'Times New Roman', Times, serif;
+    --subtitleFont: "Shadows Into Light Two", 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    --paragraphFont: "Caveat", Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #f0e6c8;
+    margin: 0 7rem;
+}
+
     display: block;
     text-align: center;
     padding: 0;
