@@ -21,8 +21,29 @@ body {
     margin: 0 7rem;
 }
 
+/* HEADER STYLES */
+
+body header h1 {
     display: block;
+    padding: 2rem 0 0;
+    margin: 0;
+    font-size: 5rem;
     text-align: center;
-    padding: 0;
+    font-family: var(--titleFont);
+    color: black;
+    line-height: 1.2;
+}
+
+body header h2 {
+    display: block;
+    padding: 0 0 2rem;
+    margin: 0;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: var(--subtitleFont);
+    color: black;
+    text-transform: uppercase;
+}
+
 }
 
