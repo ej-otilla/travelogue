@@ -104,3 +104,12 @@ main section figure img {
     border: 15px solid white;
     box-shadow: 0px 0px 8px 0px black;
 }
+
+/* FOOTER STYLES*/
+
+body footer {
+    padding-top: 0.5rem;
+    font-family: var(--paragraphFont);
+    font-weight: 1000;
+    font-size: 1.3rem;
+}
